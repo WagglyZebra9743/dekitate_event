@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "八尺瓊勾玉",
+          "color": "yellow",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/yomi/maga"
+        }
+      },
+      {
+        "when": {
+          "text": "アイス・プレート",
+          "color": "aqua",
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/ice/ice_plate"
+        }
+      },
+      {
+        "when": {
+          "text": "サンタコート",
+          "color": "red",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/winter/santa_coat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leather_chestplate",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
+    }
+  }
+}

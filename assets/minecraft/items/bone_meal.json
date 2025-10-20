@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "識別番号:003の部品",
+          "color": "dark_green",
+          "bold": true,
+          "italic": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2024_summer/piece003"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/bone_meal"
+    }
+  }
+}

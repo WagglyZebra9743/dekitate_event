@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "筍",
+          "color": "dark_green",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/yomi/takenoko"
+        }
+      },
+      {
+        "when": {
+          "text": "ニンジャの若竹",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2025_summer/young_bamboo"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/bamboo"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "傾き続けたドリップリーフ",
+          "color": "dark_green",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/big_dripleaf_full_tilt"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/big_dripleaf"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dekitate_event:item/2025_summer/dummy_bone"
+  }
+}

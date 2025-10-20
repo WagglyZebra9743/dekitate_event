@@ -47,4 +47,4 @@ maze研究所、氷の要塞(裏)
 discord: wagglyzebra9743  
 github: https://github.com/WagglyZebra9743/dekitate_event/issues
 
-ver.10.1
+ver.11.1

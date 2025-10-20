@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "dekitate_event:item/yomi/numa_gutu"
-  }
-}

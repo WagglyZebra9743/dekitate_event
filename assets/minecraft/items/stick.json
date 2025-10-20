@@ -1,0 +1,61 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "魔法の杖",
+          "color": "light_purple",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2024_gw/magic_stick"
+        }
+      },
+      {
+        "when": {
+          "text": "魔女の杖",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2024_halloween/magical_stick"
+        }
+      },
+      {
+        "when": {
+          "text": "識別番号:001の部品",
+          "color": "dark_green",
+          "bold": true,
+          "italic": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2024_summer/piece001"
+        }
+      },
+      {
+        "when": {
+          "text": "恐竜の骨",
+          "color": "light_purple",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2025_summer/dummy_bone"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stick"
+    }
+  }
+}

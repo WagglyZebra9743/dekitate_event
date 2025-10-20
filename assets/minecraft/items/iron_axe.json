@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "略奪者の戦斧",
+          "color": "red",
+          "italic": false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/concrete/battle_axe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_axe"
+    }
+  }
+}

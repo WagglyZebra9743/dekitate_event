@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "魔法の杖",
+          "color": "gold",
+          "italic": false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2024_gw/magic_rod"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/blaze_rod"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "かびたパン",
+          "color": "dark_aqua",
+          "italic": false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/under/moldy_bread"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/bread"
+    }
+  }
+}

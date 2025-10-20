@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "エンチャントされた金のニンジン",
+          "color": "dark_purple"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/time/enchanted"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_carrot"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "",
+          "extra": [
+            {
+              "text": "年越しニャンコ宝くじ２０２４",
+              "color": "dark_aqua",
+              "bold": true,
+              "italic": false
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/other_events/lottery"
+        }
+      },
+      {
+        "when": {
+          "text": "2025夏イベント",
+          "extra": [
+            {
+              "text": "交換券",
+              "color": "gold",
+              "bold": true,
+              "italic": false
+            }
+          ],
+          "color": "dark_aqua",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2025_summer/summer_tickets"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}

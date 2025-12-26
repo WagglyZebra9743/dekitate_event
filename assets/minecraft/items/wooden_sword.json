@@ -24,19 +24,28 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/e_rank"
+          "model": "dekitate_event:item/dpass/rank_e"
         }
       },
       {
         "when": {
-          "text": "Eランク",
-          "color": "white",
+          "text": " ",
           "bold": true,
-          "italic": false
+          "italic": false,
+          "extra": [
+            {
+              "text": "E",
+              "color": "gray"
+            },
+            {
+              "text": " ランク",
+              "color": "white"
+            }
+          ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/e_rank"
+          "model": "dekitate_event:item/dpass/rank_e" 
         }
       },
       {

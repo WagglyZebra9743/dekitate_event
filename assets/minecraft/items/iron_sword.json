@@ -6,18 +6,6 @@
     "cases": [
       {
         "when": {
-          "text": "錆びた剣",
-          "color": "gold",
-          "bold": true,
-          "italic": false
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/under/rusty_sword"
-        }
-      },
-      {
-        "when": {
           "text": "ランク",
           "color": "white",
           "bold": true,
@@ -25,7 +13,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/rank_b"
+          "model": "dekitate_event:item/dpass/rank_c"
         }
       },
       {
@@ -35,8 +23,8 @@
           "italic": false,
           "extra": [
             {
-              "text": "B",
-              "color": "dark_green"
+              "text": "C",
+              "color": "yellow"
             },
             {
               "text": " ランク",
@@ -46,13 +34,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/rank_b" 
+          "model": "dekitate_event:item/dpass/rank_c" 
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/golden_sword"
+      "model": "minecraft:item/iron_sword"
     }
   }
 }

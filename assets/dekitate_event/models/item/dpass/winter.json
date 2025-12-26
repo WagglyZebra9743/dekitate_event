@@ -1,0 +1,42 @@
+{
+    "credit": "create by WagglyZebra9743",
+    "gui_light": "front",
+    "textures": {
+        "0": "dekitate_event:item/dpass/winter",
+        "1": "dekitate_event:item/dpass/fillwinter",
+        "particle": "dekitate_event:item/dpass/winter"
+    },
+    "elements": [
+        {
+            "name": "haikei",
+            "from": [-16, 0, 0],
+            "to": [32, 28, 1],
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+            }
+        },
+        {
+            "from": [16, 10, 6],
+            "to": [21, 19, 7],
+            "faces": {
+                "north": {"uv": [0, 0, 0.88889, 0.88889], "texture": "#0"},
+                "east": {"uv": [0, 0, 0.88889, 0.88889], "texture": "#0"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+                "west": {"uv": [0, 0, 0.88889, 0.88889], "texture": "#0"},
+                "up": {"uv": [0, 0, 0.88889, 0.88889], "texture": "#0"},
+                "down": {"uv": [0, 0, 0.88889, 0.88889], "texture": "#0"}
+            }
+        }
+    ],
+    "display": {
+        "gui": {
+            "translation": [-36.5, -11.2, 0],
+            "scale": [3.4, 1.92, 1]
+        }
+    }
+}

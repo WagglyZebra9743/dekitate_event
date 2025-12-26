@@ -1,0 +1,88 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "ランク",
+          "color": "white",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/rank_s_or_sp"
+        }
+      },
+      {
+        "when": {
+          "text": " ",
+          "bold": true,
+          "italic": false,
+          "extra": [
+            {
+              "text": "S+",
+              "color": "gold",
+              "bold": true
+            },
+            {
+              "text": " ランク",
+              "color": "white"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/rank_sp" 
+        }
+      },
+      {
+        "when": {
+          "text": " ",
+          "bold": true,
+          "italic": false,
+          "extra": [
+            {
+              "text": "S",
+              "color": "gold"
+            },
+            {
+              "text": " ランク",
+              "color": "white"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/rank_s" 
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "gui",
+            "ground",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:special",
+        "model": {
+          "type": "minecraft:trident"
+        },
+        "base": "minecraft:item/trident_in_hand"
+      }
+    }
+  }
+}

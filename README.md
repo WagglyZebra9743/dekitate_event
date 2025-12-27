@@ -29,7 +29,8 @@ ver.6.1  07/24 1.20.4への対応、一部アイテムの調節
 ver.7.1  08/22 2024夏イベント対応  
 ver.9.1  12/22 唐金の砂風艇、一部アイテム追加  
 ver.10.1 08/29 2025夏イベント対応、一部アイテム追加、gitHubでの配布に切り替え(https://github.com/WagglyZebra9743/dekitate_event)  
-ver.11.1 10/20 サーバーバージョンアップへの対応、OptiFineを使わない方式の模索
+ver.11.1 10/20 サーバーバージョンアップへの対応、OptiFineを使わない方式の模索  
+ver.12.1 12/27 一部の不具合を修正、dpass、2025冬イベント対応
 
 ### 認識しているバグ  
 一部アイテムがサーバーリソースパックと競合して表示されない  
@@ -47,4 +48,4 @@ maze研究所、氷の要塞(裏)
 discord: wagglyzebra9743  
 github: https://github.com/WagglyZebra9743/dekitate_event/issues
 
-ver.11.1
+ver.12.1

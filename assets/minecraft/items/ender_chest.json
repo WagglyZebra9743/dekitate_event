@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "model": "dekitate_event:item/dpass/reward2_unopen" 
         }
       },
       {

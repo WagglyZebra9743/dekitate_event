@@ -6,42 +6,49 @@
     "cases": [
       {
         "when": {
-          "text": "曲がった矢",
-          "color": "white",
-          "bold": true,
+          "text": "Autumnシーズン",
           "italic": false
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/no166/curved_arrow"
+          "model": "dekitate_event:item/dpass/autumn"
         }
       },
       {
         "when": {
-          "text": "次へ",
-          "color": "green",
+          "text": "Winterシーズン",
           "italic": false
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/next"
+          "model": "dekitate_event:item/dpass/winter"
         }
       },
       {
         "when": {
-          "text": "戻る",
-          "color": "green",
+          "text": "Springシーズン",
           "italic": false
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/back"
+          "model": "dekitate_event:item/dpass/spring"
+        }
+      },
+      {
+        "when": {
+          "text": "Summerシーズン",
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/summer"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/arrow"
+      "model": "minecraft:item/writable_book"
     }
-  }
+  },
+  "oversized_in_gui": true
 }

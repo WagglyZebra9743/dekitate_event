@@ -6,14 +6,25 @@
     "cases": [
       {
         "when": {
-          "text": "錆びた剣",
-          "color": "gold",
+          "text": "アイス・ソード",
           "bold": true,
           "italic": false
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/under/rusty_sword"
+          "model": "dekitate_event:item/ice/ice_sword"
+        }
+      },
+      {
+        "when": {
+          "text": "天叢雲剣",
+          "color": "yellow",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/yomi/amakumo_ken"
         }
       },
       {
@@ -25,7 +36,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/rank_b"
+          "model": "dekitate_event:item/dpass/rank_pro"
         }
       },
       {
@@ -35,8 +46,9 @@
           "italic": false,
           "extra": [
             {
-              "text": "B",
-              "color": "dark_green"
+              "text": "PRO",
+              "color": "dark_red",
+              "bold": true
             },
             {
               "text": " ランク",
@@ -46,13 +58,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/rank_b" 
+          "model": "dekitate_event:item/dpass/rank_pro"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/golden_sword"
+      "model": "minecraft:item/netherite_sword"
     }
   }
 }

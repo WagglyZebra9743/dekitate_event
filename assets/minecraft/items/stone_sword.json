@@ -24,25 +24,34 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/d_rank"
+          "model": "dekitate_event:item/dpass/rank_d"
         }
       },
       {
         "when": {
-          "text": "Dランク",
-          "color": "white",
+          "text": " ",
           "bold": true,
-          "italic": false
+          "italic": false,
+          "extra": [
+            {
+              "text": "D",
+              "color": "dark_purple"
+            },
+            {
+              "text": " ランク",
+              "color": "white"
+            }
+          ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/d_rank"
+          "model": "dekitate_event:item/dpass/rank_d" 
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/wooden_sword"
+      "model": "minecraft:item/stone_sword"
     }
   }
 }

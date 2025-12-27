@@ -1,0 +1,73 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "イベントコイン20EC",
+          "color": "yellow",
+          "italic":false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/ec_20"
+        }
+      },
+      {
+        "when": {
+          "text": "イベントコイン40EC",
+          "color": "yellow",
+          "italic":false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/ec_40"
+        }
+      },
+      {
+        "when": {
+          "text": "イベントコイン60EC",
+          "color": "yellow",
+          "italic":false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/ec_60"
+        }
+      },
+      {
+        "when": {
+          "text": "イベントコイン80EC",
+          "color": "yellow",
+          "italic":false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/ec_80"
+        }
+      },
+      {
+        "when": {
+          "text": "イベントコイン100EC",
+          "color": "yellow",
+          "italic":false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/dpass/ec_100"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/sunflower"
+    }
+  }
+}

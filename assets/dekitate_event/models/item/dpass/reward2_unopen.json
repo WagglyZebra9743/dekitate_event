@@ -2,8 +2,8 @@
 	"credit": "create by WagglyZebra9743",
 	"parent": "gift",
 	"textures": {
-		"0": "dekitate_event:item/dpass/normal",
-		"particle": "dekitate_event:item/dpass/normal"
+		"0": "dekitate_event:item/dpass/christmas",
+		"particle": "dekitate_event:item/dpass/christmas"
 	},
 	"elements": [
 		{

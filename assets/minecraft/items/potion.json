@@ -65,14 +65,237 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/potion",
-      "tints": [
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
         {
-          "type": "minecraft:potion",
-          "default": -13083194
+          "threshold": 1,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/speed_potion"
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/slow_potion"
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/haste_potion"
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/fatigue_potion"
+          }
+        },
+        {
+          "threshold": 5,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/strength_potion"
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/instant_health_potion"
+          }
+        },
+        {
+          "threshold": 7,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/damage_potion"
+          }
+        },
+        {
+          "threshold": 8,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/jump_potion"
+          }
+        },
+        {
+          "threshold": 9,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/nausea_potion"
+          }
+        },
+        {
+          "threshold": 10,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/regen_potion"
+          }
+        },
+        {
+          "threshold": 11,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/resist_potion"
+          }
+        },
+        {
+          "threshold": 12,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/fire_resist_potion"
+          }
+        },
+        {
+          "threshold": 13,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/water_breath_potion"
+          }
+        },
+        {
+          "threshold": 14,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/invisible_potion"
+          }
+        },
+        {
+          "threshold": 15,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/blind_potion"
+          }
+        },
+        {
+          "threshold": 16,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/night_vision_potion"
+          }
+        },
+        {
+          "threshold": 17,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/hunger_potion"
+          }
+        },
+        {
+          "threshold": 18,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/weak_potion"
+          }
+        },
+        {
+          "threshold": 19,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/poison_potion"
+          }
+        },
+        {
+          "threshold": 20,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/wither_potion"
+          }
+        },
+        {
+          "threshold": 22,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/absorp_potion"
+          }
+        },
+        {
+          "threshold": 23,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/saturation_potion"
+          }
+        },
+        {
+          "threshold": 24,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/glow_potion"
+          }
+        },
+        {
+          "threshold": 25,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/levitate_potion"
+          }
+        },
+        {
+          "threshold": 26,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/luck_potion"
+          }
+        },
+        {
+          "threshold": 27,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/un_luck_potion"
+          }
+        },
+        {
+          "threshold": 28,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/slow_fall_potion"
+          }
+        },
+        {
+          "threshold": 29,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/conduit_potion"
+          }
+        },
+        {
+          "threshold": 30,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/dolphin_potion"
+          }
+        },
+        {
+          "threshold": 31,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/bad_omen_potion"
+          }
+        },
+        {
+          "threshold": 32,
+          "model": {
+            "type": "model",
+            "model": "custom/adminshop/craftpotion/hero_potion"
+          }
         }
-      ]
+      ],
+        "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/potion",
+        "tints": [
+          {
+            "type": "minecraft:potion",
+            "default": -13083194
+          }
+        ]
+      }
     }
   }
 }

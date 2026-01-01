@@ -62,8 +62,49 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/diamond_sword"
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "model",
+            "model": "custom/dungeon/katana"
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "model",
+            "model": "custom/2023_summer/apple_sword"
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "model",
+            "model": "custom/private_event/neko_pvp_sword"
+          }
+        },
+        {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "custom/2025_winter/ice_sword"
+          }
+        },
+        {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/diamond_sword"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_sword"
+      }
     }
   }
 }

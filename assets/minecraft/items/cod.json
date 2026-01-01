@@ -44,8 +44,75 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/cod"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "出目金",
+            "color": "#811515",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/deme"
+          }
+        },
+        {
+          "when": {
+            "text": "鯉",
+            "color": "#55453A",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/carp"
+          }
+        },
+        {
+          "when": {
+            "text": "フロストトラウト(レア)",
+            "color": "#2E1DC4",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/frost_trout"
+          }
+        },
+        {
+          "when": {
+            "text": "凍っていた魚(レア)",
+            "color": "#8FFAFA",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/frozen_cod"
+          }
+        },
+        {
+          "when": {
+            "text": "氷鱗魚(スーパーレア)",
+            "color": "#8FFAFA",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/ice_arm_fish"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cod"
+      }
     }
   }
 }

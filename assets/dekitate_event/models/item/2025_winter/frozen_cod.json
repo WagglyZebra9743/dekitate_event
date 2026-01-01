@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cod",
+    "layer1": "dekitate_event:item/2025_winter/fish_ice"
+  }
+}

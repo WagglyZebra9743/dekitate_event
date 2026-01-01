@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "text": "圧縮された鮭",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "2025年冬イベント",
+            "color": "aqua",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2025_winter/salmon_zip"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "鮎",
+            "color": "#6D5933",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/ayu"
+          }
+        },
+        {
+          "when": {
+            "text": "グレイサーモン",
+            "color": "#3A1A00",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/gray"
+          }
+        },
+        {
+          "when": {
+            "text": "鮪(レア)",
+            "color": "#8A0010",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/maguro"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salmon"
+      }
+    }
+  }
+}

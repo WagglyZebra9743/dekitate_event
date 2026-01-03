@@ -35,8 +35,13 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward0_geted" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:christmas",
+             "openness": 1.0
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -57,8 +62,38 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward2_unopen" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:christmas"
+          },
+          "base": "minecraft:item/template_chest"
+        }
+      },
+      {
+        "when": [
+          {
+            "text": "装飾に使えるアイテムが入っている",
+            "color": "dark_aqua",
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "一つ前の報酬を受け取ってアンロック",
+                "color": "gray"
+              }
+            ]
+          }
+        ],
+        "model": {
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:christmas"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -79,8 +114,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -101,8 +140,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -123,8 +166,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -145,8 +192,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -167,8 +218,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -189,8 +244,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -211,8 +270,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -233,8 +296,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -255,8 +322,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -277,8 +348,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -299,8 +374,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -321,8 +400,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       },
       {
@@ -343,8 +426,12 @@
           }
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/reward1_locked" 
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:chest",
+             "texture": "minecraft:normal"
+          },
+          "base": "minecraft:item/template_chest"
         }
       }
     ],
@@ -356,5 +443,6 @@
       },
       "base": "minecraft:item/template_chest"
     }
-  }
+  },
+  "oversized_in_gui": true
 }

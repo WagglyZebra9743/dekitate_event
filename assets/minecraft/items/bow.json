@@ -1,0 +1,232 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "壊れかけの弓",
+          "color": "white",
+          "italic": false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/no166/broken_bow"
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "dekitate_event:item/no166/broken_bow_pulling_0"
+            },
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "dekitate_event:item/no166/broken_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "dekitate_event:item/no166/broken_bow_pulling_2"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:custom/private_event/cork_gun"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:custom/private_event/cork_gun"
+              },
+              "entries": []
+            }
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:custom/dungeon/desert_pirate/bowsword/bowsword-0"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:custom/dungeon/desert_pirate/bowsword/bowsword-0"
+              },
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/dungeon/desert_pirate/bowsword/bowsword-1"
+                  }
+                },
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/dungeon/desert_pirate/bowsword/bowsword-2"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/dungeon/desert_pirate/bowsword/bowsword-3"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:custom/dungeonpass/dungeon_pass_glacical_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:custom/dungeonpass/dungeon_pass_glacical_bow"
+              },
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/dungeonpass/dungeon_pass_glacical_bow_0"
+                  }
+                },
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/dungeonpass/dungeon_pass_glacical_bow_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/dungeonpass/dungeon_pass_glacical_bow_2"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bow_pulling_0"
+              },
+              "entries": [
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bow_pulling_2"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bow"
+        },
+        "on_true": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:use_duration",
+          "scale": 0.05,
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bow_pulling_0"
+          },
+          "entries": [
+            {
+              "threshold": 0.65,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bow_pulling_1"
+              }
+            },
+            {
+              "threshold": 0.9,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bow_pulling_2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

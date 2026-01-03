@@ -443,5 +443,6 @@
       },
       "base": "minecraft:item/template_chest"
     }
-  }
+  },
+  "oversized_in_gui": true
 }

@@ -110,9 +110,127 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/valentine/milk_chocolate"
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/valentine/black_chocolate"
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/valentine/berry_chocolate"
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/valentine/slime_chocolate"
+          }
+        },
+        {
+          "threshold": 5,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/whiteday/cat_white_cookie"
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/whiteday/cat_choco_cookie"
+          }
+        },
+        {
+          "threshold": 7,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/whiteday/heart_cookie"
+          }
+        },
+        {
+          "threshold": 8,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/whiteday/love_cookie"
+          }
+        },
+        {
+          "threshold": 9,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/valentine/valentine_chocolate"
+          }
+        },
+        {
+          "threshold": 10,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/whiteday/macaron_strawberry"
+          }
+        },
+        {
+          "threshold": 11,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/whiteday/macaron_lemon"
+          }
+        },
+        {
+          "threshold": 12,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/whiteday/macaron_lime"
+          }
+        },
+        {
+          "threshold": 13,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/easter/easter_egg_1"
+          }
+        },
+        {
+          "threshold": 14,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/easter/easter_egg_2"
+          }
+        },
+        {
+          "threshold": 15,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/easter/easter_egg_3"
+          }
+        },
+        {
+          "threshold": 16,
+          "model": {
+            "type": "model",
+            "model": "minecraft:custom/easter/easter_egg_4"
+          }
+        }
+      ],
+      "fallback": {
         "type": "minecraft:model",
         "model": "minecraft:item/cod"
       }
+    }
     }
   }
 }

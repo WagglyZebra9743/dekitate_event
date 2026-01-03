@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow_pulling_2",
+  "textures": {
+    "layer0": "dekitate_event:item/no166/broken_bow_pulling_2"
+  }
+}

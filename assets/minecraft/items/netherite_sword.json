@@ -70,28 +70,28 @@
           "threshold": 1,
           "model": {
             "type": "model",
-            "model": "custom/dungeon/katana"
+            "model": "minecraft:custom/dungeon/katana"
           }
         },
         {
           "threshold": 3,
           "model": {
             "type": "model",
-            "model": "custom/2023_summer/apple_sword"
+            "model": "minecraft:custom/2023_summer/apple_sword"
           }
         },
         {
           "threshold": 4,
           "model": {
             "type": "model",
-            "model": "custom/private_event/neko_pvp_sword"
+            "model": "minecraft:custom/private_event/neko_pvp_sword"
           }
         },
         {
         "threshold": 5,
         "model": {
           "type": "model",
-          "model": "custom/2025_winter/ice_sword"
+          "model": "minecraft:custom/2025_winter/ice_sword"
           }
         },
         {

@@ -284,6 +284,19 @@
             "type": "model",
             "model": "minecraft:custom/adminshop/craftpotion/hero_potion"
           }
+        },
+        {
+          "threshold":33,
+          "model":{
+            "type": "minecraft:model",
+            "model": "minecraft:item/potion",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": -13083194
+              }
+            ]
+          }
         }
       ],
         "fallback": {

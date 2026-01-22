@@ -22,6 +22,25 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/2025_winter/salmon_zip"
         }
+      },
+      {
+        "when": [
+          {
+            "text": "超圧縮された鮭",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "2025年冬イベント",
+            "color": "aqua",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2025_winter/salmon_ultra_zip"
+        }
       }
     ],
     "fallback": {

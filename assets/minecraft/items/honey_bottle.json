@@ -15,6 +15,18 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/honeycomb/loyal_honey"
         }
+      },
+      {
+        "when": {
+          "text": "ガムシロップ",
+          "color": "gold",
+          "italic": false,
+          "bold": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2022_halloween/gum_syrup"
+        }
       }
     ],
     "fallback": {

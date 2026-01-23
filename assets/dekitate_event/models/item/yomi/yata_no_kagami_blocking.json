@@ -1,0 +1,22 @@
+{
+  "parent": "dekitate_event:item/yomi/yata_no_kagami",
+  "display": {
+    "thirdperson_righthand": {
+		"rotation": [50, -49.75, 50],
+		"translation": [2.5, -0.25, 0.75],
+		"scale": [0.5, 0.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [38, -47.25, 38],
+			"translation": [2.5, -2, 0.5],
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_righthand": {
+			"translation": [2.25, 0, 0],
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 1]
+		}
+  }
+}

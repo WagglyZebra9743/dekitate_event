@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dekitate_event:item/2024_summer/soul000"
+    "layer0": "minecraft:block/fire_0",
+    "layer1": "dekitate_event:item/2024_summer/soul000"
   }
 }

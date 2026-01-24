@@ -38,6 +38,17 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/yomi/numa_gutu"
         }
+      },
+      {
+        "when": {
+          "text": "穴の開いた靴下",
+          "color": "white",
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2023_summer/hole_socks"
+        }
       }
     ],
     "fallback": {

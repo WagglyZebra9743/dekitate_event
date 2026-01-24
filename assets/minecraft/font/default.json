@@ -1,0 +1,8 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "dekitate_event:version_number"
+    }
+  ]
+}

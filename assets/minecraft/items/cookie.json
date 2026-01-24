@@ -27,6 +27,18 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/other_events/mini_cookie"
         }
+      },
+      {
+        "when": {
+          "text": "フレッシュ・クッキー",
+          "color": "#E82700",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2022_halloween/fresh_cookie"
+        }
       }
     ],
     "fallback": {

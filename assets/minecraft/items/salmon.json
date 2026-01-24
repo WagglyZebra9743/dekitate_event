@@ -22,6 +22,25 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/2025_winter/salmon_zip"
         }
+      },
+      {
+        "when": [
+          {
+            "text": "超圧縮された鮭",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "2025年冬イベント",
+            "color": "aqua",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2025_winter/salmon_ultra_zip"
+        }
       }
     ],
     "fallback": {
@@ -63,6 +82,78 @@
           "model": {
             "type": "minecraft:model",
             "model": "dekitate_event:item/2025_winter/maguro"
+          }
+        },
+        {
+          "when": {
+            "text": "鰹",
+            "color": "#D45421",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/katuo"
+          }
+        },
+        {
+          "when": {
+            "text": "サワラ",
+            "color": "#103764",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/sawara"
+          }
+        },
+        {
+          "when": {
+            "text": "マゴチ",
+            "color": "#212636",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/magoti"
+          }
+        },
+        {
+          "when": {
+            "text": "キジハタ",
+            "color": "#5C2009",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/kizihata"
+          }
+        },
+        {
+          "when": {
+            "text": "キンメダイ",
+            "color": "#B30B19",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/kinnme"
+          }
+        },
+        {
+          "when": {
+            "text": "クロマグロ（レア）",
+            "color": "#9B4523",
+            "bold": true,
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "dekitate_event:item/2025_winter/kuromaguro"
           }
         }
       ],

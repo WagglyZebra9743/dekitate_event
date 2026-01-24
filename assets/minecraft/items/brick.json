@@ -14,6 +14,18 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/fried_gold_sand/ancient_brick"
         }
+      },
+      {
+        "when": {
+          "text": "マジックショコラ",
+          "color": "#962987",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/2022_halloween/magic_chocolate"
+        }
       }
     ],
     "fallback": {

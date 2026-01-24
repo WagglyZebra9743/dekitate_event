@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "dekitate_event:font/version_number.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [ "\uE974" ]
+    }
+  ]
+}

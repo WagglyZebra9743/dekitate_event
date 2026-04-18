@@ -224,6 +224,13 @@
             "type": "model",
             "model": "minecraft:custom/easter/easter_egg_4"
           }
+        },
+        {
+          "threshold": 17,
+          "model": {
+            "type": "model",
+            "model": "minecraft:item/cod"
+          }
         }
       ],
       "fallback": {

@@ -77,11 +77,95 @@
         }
       ],
       "fallback": {
-        "type": "minecraft:special",
+        "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1.0,
         "model": {
-          "type": "minecraft:trident"
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui", "ground", "fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:custom/dungeon/ice_fortress/ice_javelin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:custom/dungeon/ice_fortress/ice_javelin_throwing"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:custom/dungeon/ice_fortress/ice_javelin"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+          "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": ["gui", "ground", "fixed"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_true": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_throwing",
+          "model": { "type": "minecraft:trident" }
         },
-        "base": "minecraft:item/trident_in_hand"
+        "on_false": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_in_hand",
+          "model": { "type": "minecraft:trident" }
+        }
+      }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": ["gui", "ground", "fixed"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_true": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_throwing",
+          "model": { "type": "minecraft:trident" }
+        },
+        "on_false": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_in_hand",
+          "model": { "type": "minecraft:trident" }
+        }
+      }
+    }
       }
     }
   }

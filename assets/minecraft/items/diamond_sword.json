@@ -102,8 +102,37 @@
         }
       ],
       "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/diamond_sword"
+        "type": "minecraft:select",
+        "property":"minecraft:context_dimension",
+        "cases": [
+          {
+            "when": "minecraft:ice_fortress_dungeon_world",
+            "model": {
+              "type": "minecraft:select",
+              "property": "minecraft:context_entity_type",
+              "cases": [
+                {
+                  "when":[
+                    "minecraft:stray",
+                    "minecraft:armor_stand"
+                  ],
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "dekitate_event:item/ice/ice_sword"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/diamond_sword"
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond_sword"
+        }
       }
     }
   }

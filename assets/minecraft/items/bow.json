@@ -160,71 +160,239 @@
         {
           "threshold": 4,
           "model": {
-            "type": "minecraft:condition",
-            "property": "minecraft:using_item",
-            "on_false": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/bow"
-            },
-            "on_true": {
-              "type": "minecraft:range_dispatch",
-              "property": "minecraft:use_duration",
-              "scale": 0.05,
-              "fallback": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/bow_pulling_0"
-              },
-              "entries": [
-                {
-                  "threshold": 0.65,
-                  "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:item/bow_pulling_1"
-                  }
-                },
-                {
-                  "threshold": 0.9,
-                  "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:item/bow_pulling_2"
+            "type": "minecraft:select",
+            "property": "minecraft:context_dimension",
+            "cases": [
+              {
+                "when": "minecraft:no166_dungeon_world",
+                "model": {
+                  "type": "minecraft:select",
+                  "property": "context_entity_type",
+                  "cases": [
+                    {
+                      "when": "minecraft:skeleton",
+                      "model": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:using_item",
+                        "on_false": {
+                          "type": "minecraft:model",
+                          "model": "dekitate_event:item/no166/broken_bow"
+                        },
+                        "on_true": {
+                          "type": "minecraft:range_dispatch",
+                          "property": "minecraft:use_duration",
+                          "scale": 0.05,
+                          "fallback": {
+                            "type": "minecraft:model",
+                            "model": "dekitate_event:item/no166/broken_bow_pulling_0"
+                          },
+                          "entries": [
+                            {
+                              "threshold": 0.65,
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "dekitate_event:item/no166/broken_bow_pulling_1"
+                              }
+                            },
+                            {
+                              "threshold": 0.9,
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "dekitate_event:item/no166/broken_bow_pulling_2"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bow"
+                    },
+                    "on_true": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:use_duration",
+                      "scale": 0.05,
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bow_pulling_0"
+                      },
+                      "entries": [
+                        {
+                          "threshold": 0.65,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/bow_pulling_1"
+                          }
+                        },
+                        {
+                          "threshold": 0.9,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/bow_pulling_2"
+                          }
+                        }
+                      ]
+                    }
                   }
                 }
-              ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bow"
+              },
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:use_duration",
+                "scale": 0.05,
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow_pulling_0"
+                },
+                "entries": [
+                  {
+                    "threshold": 0.65,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bow_pulling_1"
+                    }
+                  },
+                  {
+                    "threshold": 0.9,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bow_pulling_2"
+                    }
+                  }
+                ]
+              }
             }
           }
         }
       ],
       "fallback": {
-        "type": "minecraft:condition",
-        "property": "minecraft:using_item",
-        "on_false": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/bow"
-        },
-        "on_true": {
-          "type": "minecraft:range_dispatch",
-          "property": "minecraft:use_duration",
-          "scale": 0.05,
-          "fallback": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/bow_pulling_0"
-          },
-          "entries": [
-            {
-              "threshold": 0.65,
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/bow_pulling_1"
-              }
-            },
-            {
-              "threshold": 0.9,
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/bow_pulling_2"
+        "type": "select",
+        "property": "context_dimension",
+        "cases": [
+          {
+            "when": "minecraft:no166_dungeon_world",
+            "model": {
+              "type": "select",
+              "property": "context_entity_type",
+              "cases": [
+                {
+                  "when": "minecraft:skeleton",
+                  "model": {
+                    "type": "condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                      "type": "minecraft:model",
+                      "model": "dekitate_event:item/no166/broken_bow"
+                    },
+                    "on_true": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:use_duration",
+                      "scale": 0.05,
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "dekitate_event:item/no166/broken_bow_pulling_0"
+                      },
+                      "entries": [
+                        {
+                          "threshold": 0.65,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "dekitate_event:item/no166/broken_bow_pulling_1"
+                          }
+                        },
+                        {
+                          "threshold": 0.9,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "dekitate_event:item/no166/broken_bow_pulling_2"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+                "fallback": {
+                "type": "minecraft:condition",
+                "property": "minecraft:using_item",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow"
+                },
+                "on_true": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:use_duration",
+                  "scale": 0.05,
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bow_pulling_0"
+                  },
+                  "entries": [
+                    {
+                      "threshold": 0.65,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bow_pulling_1"
+                      }
+                    },
+                    {
+                      "threshold": 0.9,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bow_pulling_2"
+                      }
+                    }
+                  ]
+                }
               }
             }
-          ]
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bow"
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_0"
+            },
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow_pulling_2"
+                }
+              }
+            ]
+          }
         }
       }
     }

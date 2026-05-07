@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.6",
+	"credit": "create by WagglyZebra9743",
+	"parent": "izanami",
+	"elements": [
+		{
+			"from": [7.5, 7.5, 7.5],
+			"to": [8.5, 8.5, 8.5],
+			"color": 8,
+			"faces": {
+				"north": {"uv": [1, 1, 2, 2], "texture": "#missing"},
+				"east": {"uv": [1, 1, 2, 2], "texture": "#missing"},
+				"south": {"uv": [0, 1, 1, 2], "texture": "#missing"},
+				"west": {"uv": [0, 1, 1, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"down": {"uv": [0, 1, 1, 2], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0, -16, 0],
+			"to": [16, -15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 0]},
+			"color": 2,
+			"faces": {
+				"north": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"east": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"south": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"west": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 1, 16],
+			"color": 2,
+			"faces": {
+				"north": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"east": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"south": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"west": {"uv": [0, 1, 16, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		}
+	]
+}

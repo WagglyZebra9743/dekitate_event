@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "研磨材",
+          "color": "gray",
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "dekitate_event:item/materials/abrasive"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+              {
+              "text": "武器の切れ味を高めるために用いられる研磨剤",
+              "color": "light_purple",
+              "italic": false
+            }
+          ],
+          "model": {
+            "type": "model",
+            "model": "dekitate_event:item/materials/abrasive"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/leaf_litter"
+      }
+    }
+  }
+}

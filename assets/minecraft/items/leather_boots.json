@@ -49,6 +49,135 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/2023_summer/hole_socks"
         }
+      },
+      {
+        "when": [
+          {
+            "text":"Dクラス職員のブーツ",
+            "color": "green",
+            "extra": [
+              {
+                "text": "[新品]",
+                "color": "white"
+              }
+            ]
+          },
+          {
+            "text":"Dクラス職員のブーツ",
+            "color": "gray",
+            "extra": [
+              {
+                "text": "[中古]",
+                "color": "gray"
+              }
+            ]
+          }
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/leather_boots",
+              "tints": [
+                {
+                  "type": "minecraft:dye",
+                  "default": -6265536
+                }
+              ]
+            },
+            {
+              "type": "minecraft:model",
+              "model": "dekitate_event:item/maze/d_boots"
+            }
+          ]
+        }
+      },
+      {
+        "when": [
+          {
+            "text":"Eクラス職員のブーツ",
+            "color": "green",
+            "extra": [
+              {
+                "text": "[新品]",
+                "color": "white"
+              }
+            ]
+          },
+          {
+            "text":"Eクラス職員のブーツ",
+            "color": "gray",
+            "extra": [
+              {
+                "text": "[中古]",
+                "color": "gray"
+              }
+            ]
+          }
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/leather_boots",
+              "tints": [
+                {
+                  "type": "minecraft:dye",
+                  "default": -6265536
+                }
+              ]
+            },
+            {
+              "type": "minecraft:model",
+              "model": "dekitate_event:item/maze/e_boots"
+            }
+          ]
+        }
+      },
+      {
+        "when": [
+          {
+            "text":"Nクラス職員のブーツ",
+            "color": "green",
+            "extra": [
+              {
+                "text": "[新品]",
+                "color": "white"
+              }
+            ]
+          },
+          {
+            "text":"Nクラス職員のブーツ",
+            "color": "gray",
+            "extra": [
+              {
+                "text": "[中古]",
+                "color": "gray"
+              }
+            ]
+          }
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/leather_boots",
+              "tints": [
+                {
+                  "type": "minecraft:dye",
+                  "default": -6265536
+                }
+              ]
+            },
+            {
+              "type": "minecraft:model",
+              "model": "dekitate_event:item/maze/n_boots"
+            }
+          ]
+        }
       }
     ],
     "fallback": {

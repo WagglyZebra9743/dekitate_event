@@ -22,6 +22,36 @@
           "type": "minecraft:model",
           "model": "dekitate_event:item/2024_summer/suiccho"
         }
+      },
+      {
+        "when":{
+          "text": "イザナミ",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:special",
+              "model": {
+                "type": "minecraft:player_head"
+              },
+              "base": "dekitate_event:item/yomi/izanami_head"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "dekitate_event:item/yomi/izanami",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": 12003374
+                }
+              ]
+            }
+          ]
+        }
       }
     ],
     "fallback": {
@@ -31,5 +61,6 @@
         },
         "base": "minecraft:item/template_skull"
       }
-  }
+  },
+  "oversized_in_gui": true
 }

@@ -67,7 +67,7 @@
           "threshold": 4,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:custom/2025_autumn/twin_swords"
+            "model": "minecraft:custom/season_event/2025_autumn/twin_swords"
           }
         }
         ,

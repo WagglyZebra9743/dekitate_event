@@ -50,14 +50,14 @@
           "threshold": 1,
           "model": {
             "type": "model",
-            "model": "minecraft:custom/2023_summer/ofuda"
+            "model": "minecraft:custom/season_event/2023_summer/ofuda"
           }
         },
         {
           "threshold": 2,
           "model": {
             "type": "model",
-            "model": "minecraft:custom/2023_summer/ofuda_burned"
+            "model": "minecraft:custom/season_event/2023_summer/ofuda_burned"
           }
         },
         {

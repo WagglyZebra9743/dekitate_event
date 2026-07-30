@@ -61,7 +61,7 @@
           "threshold": 1,
           "model": {
             "type": "model",
-            "model": "minecraft:custom/2022_summer/hanabi"
+            "model": "minecraft:custom/season_event/2022_summer/hanabi"
           }
         },
         {

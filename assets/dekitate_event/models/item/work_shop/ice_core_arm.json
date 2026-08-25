@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dekitate_event:item/work_shop/ice_core_arm"
+  }
+}

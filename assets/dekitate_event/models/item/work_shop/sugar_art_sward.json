@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dekitate_event:item/work_shop/sugar_art_sward"
+  }
+}

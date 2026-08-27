@@ -38,398 +38,272 @@
           "type": "minecraft:special",
           "model": {
             "type": "minecraft:chest",
-             "texture": "minecraft:christmas",
-             "openness": 1.0
+            "texture": "minecraft:christmas",
+            "openness": 1.0
           },
           "base": "minecraft:item/template_chest"
         }
       },
       {
         "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "クリックで報酬を受け取る",
-                "color": "gray"
-              }
-            ]
-          }
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "クリックで報酬を受け取る",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "一つ前の報酬を受け取ってアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
         ],
         "model": {
           "type": "minecraft:special",
           "model": {
             "type": "minecraft:chest",
-             "texture": "minecraft:christmas"
+            "texture": "minecraft:christmas"
           },
           "base": "minecraft:item/template_chest"
         }
       },
       {
         "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "一つ前の報酬を受け取ってアンロック",
-                "color": "gray"
-              }
-            ]
-          }
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "450 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "900 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "1350 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "1800 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "2250 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "2700 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "3150 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "3600 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "4050 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "4500 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "5000 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "6000 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": "装飾に使えるアイテムが入っている",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "7000 DEXP以上でアンロック",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
         ],
         "model": {
           "type": "minecraft:special",
           "model": {
             "type": "minecraft:chest",
-             "texture": "minecraft:christmas"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "450 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "900 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "1350 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "1800 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "2250 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "2700 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "3150 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "3600 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "4050 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "4500 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "5000 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "6000 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
-          },
-          "base": "minecraft:item/template_chest"
-        }
-      },
-      {
-        "when": [
-          {
-            "text": "装飾に使えるアイテムが入っている",
-            "color": "dark_aqua",
-            "italic": false
-          },
-          {
-            "text": "",
-            "extra": [
-              {
-                "text": "7000 DEXP以上でアンロック",
-                "color": "gray"
-              }
-            ]
-          }
-        ],
-        "model": {
-          "type": "minecraft:special",
-          "model": {
-            "type": "minecraft:chest",
-             "texture": "minecraft:normal"
+            "texture": "minecraft:normal"
           },
           "base": "minecraft:item/template_chest"
         }

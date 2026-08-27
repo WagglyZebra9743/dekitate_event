@@ -28,36 +28,32 @@
         }
       },
       {
-        "when": {
-          "text": "ランク",
-          "color": "white",
-          "bold": true,
-          "italic": false
-        },
+        "when": [
+          {
+            "text": "ランク",
+            "color": "white",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " ",
+            "bold": true,
+            "italic": false,
+            "extra": [
+              {
+                "text": "A",
+                "color": "red"
+              },
+              {
+                "text": " ランク",
+                "color": "white"
+              }
+            ]
+          }
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "dekitate_event:item/dpass/rank_a"
-        }
-      },
-      {
-        "when": {
-          "text": " ",
-          "bold": true,
-          "italic": false,
-          "extra": [
-            {
-              "text": "A",
-              "color": "red"
-            },
-            {
-              "text": " ランク",
-              "color": "white"
-            }
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "dekitate_event:item/dpass/rank_a" 
         }
       }
     ],
@@ -69,35 +65,28 @@
           "threshold": 1,
           "model": {
             "type": "model",
-            "model": "minecraft:custom/dungeon/katana"
+            "model": "custom/dungeon/katana"
           }
         },
         {
           "threshold": 3,
           "model": {
             "type": "model",
-            "model": "minecraft:custom/season_event/2023_summer/apple_sword"
+            "model": "custom/season_event/2023_summer/apple_sword"
           }
         },
         {
           "threshold": 4,
           "model": {
             "type": "model",
-            "model": "minecraft:custom/private_event/neko_pvp_sword"
+            "model": "custom/private_event/neko_pvp_sword"
           }
         },
         {
-        "threshold": 5,
-        "model": {
-          "type": "model",
-          "model": "minecraft:custom/season_event/2025_winter/ice_sword"
-          }
-        },
-        {
-        "threshold": 6,
-        "model": {
-          "type": "model",
-          "model": "minecraft:item/diamond_sword"
+          "threshold": 5,
+          "model": {
+            "type": "model",
+            "model": "custom/season_event/2025_winter/ice_sword"
           }
         }
       ],
